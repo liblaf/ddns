@@ -2,6 +2,7 @@ package notify
 
 import (
 	"fmt"
+	"strings"
 
 	"github.com/PaulSonOfLars/gotgbot/v2"
 	"github.com/cloudflare/cloudflare-go/v4/dns"
@@ -15,6 +16,7 @@ func (b *Bot) Delete(records []dns.RecordResponse) error {
 	for _, record := range records {
 		text += fmt.Sprintf("🔴 <code>%s</code> => <code>%s</code>\n", cloudflare.GetLabel(record), record.Content)
 	}
+	text = strings.TrimSpace(text)
 	message, err := b.SendMessage(b.ChatID, text, &gotgbot.SendMessageOpts{ParseMode: "HTML"})
 	log.Debug().Any("message", message).Send()
 	if err != nil {
