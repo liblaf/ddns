@@ -10,9 +10,15 @@ import (
 	"github.com/samber/oops"
 )
 
-func (c *Client) Update(ctx context.Context, comment string, name string, deletes []dns.RecordResponse, posts []netip.Addr) error {
+func (c *Client) Update(
+	ctx context.Context,
+	comment string,
+	name string,
+	deletes []dns.RecordResponse,
+	posts []netip.Addr,
+) (*dns.RecordBatchResponse, error) {
 	if len(deletes) == 0 && len(posts) == 0 {
-		return nil
+		return nil, nil
 	}
 	params := dns.RecordBatchParams{
 		ZoneID: cf.F(c.ZoneID),
@@ -55,7 +61,7 @@ func (c *Client) Update(ctx context.Context, comment string, name string, delete
 	}
 	resp, err := c.DNS.Records.Batch(ctx, params)
 	if err != nil {
-		return oops.Wrap(err)
+		return nil, oops.Wrap(err)
 	}
 	log.Debug().Any("response", resp).Send()
 	for _, record := range resp.Deletes {
@@ -64,5 +70,5 @@ func (c *Client) Update(ctx context.Context, comment string, name string, delete
 	for _, record := range resp.Posts {
 		log.Info().Msgf("Post %s => %v", GetLabel(record), record.Content)
 	}
-	return nil
+	return resp, nil
 }

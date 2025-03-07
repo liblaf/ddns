@@ -9,9 +9,9 @@ import (
 	"github.com/samber/oops"
 )
 
-func (c *Client) Delete(ctx context.Context, records []dns.RecordResponse) error {
+func (c *Client) Delete(ctx context.Context, records []dns.RecordResponse) (*dns.RecordBatchResponse, error) {
 	if len(records) == 0 {
-		return nil
+		return nil, nil
 	}
 	deletes := make([]dns.RecordBatchParamsDelete, 0, len(records))
 	for _, record := range records {
@@ -24,11 +24,11 @@ func (c *Client) Delete(ctx context.Context, records []dns.RecordResponse) error
 		Deletes: cf.F(deletes),
 	})
 	if err != nil {
-		return oops.Wrap(err)
+		return nil, oops.Wrap(err)
 	}
 	log.Debug().Any("response", resp).Send()
 	for _, record := range resp.Deletes {
 		log.Info().Msgf("Delete %s => %s", GetLabel(record), record.Content)
 	}
-	return nil
+	return resp, nil
 }

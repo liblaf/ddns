@@ -9,7 +9,6 @@ import (
 	"github.com/liblaf/ddns/pkg/config"
 	"github.com/liblaf/ddns/pkg/ip"
 	"github.com/liblaf/ddns/pkg/notify"
-	"github.com/rs/zerolog/log"
 	"github.com/samber/oops"
 	"github.com/spf13/cobra"
 )
@@ -23,7 +22,7 @@ func Update() *cobra.Command {
 				return oops.Wrap(err)
 			}
 			client := cloudflare.NewClient()
-			_, err = notify.NewBot()
+			bot, err := notify.NewBot()
 			if err != nil {
 				return oops.Wrap(err)
 			}
@@ -37,8 +36,8 @@ func Update() *cobra.Command {
 				return oops.Wrap(err)
 			}
 			recordSet := StringSetFromRecords(records)
-			deletes := []dns.RecordResponse{}
 			keeps := []dns.RecordResponse{}
+			deletes := []dns.RecordResponse{}
 			for _, record := range records {
 				if ipSet.Contains(record.Content) {
 					keeps = append(keeps, record)
@@ -52,9 +51,21 @@ func Update() *cobra.Command {
 					posts = append(posts, ip)
 				}
 			}
-			log.Debug().Any("keeps", keeps).Send()
-			log.Debug().Any("deletes", deletes).Send()
-			log.Debug().Any("posts", posts).Send()
+			if (len(deletes) == 0) && (len(posts) == 0) {
+				return nil
+			}
+			comment, err := config.Comment()
+			if err != nil {
+				return oops.Wrap(err)
+			}
+			resp, err := client.Update(cmd.Context(), comment, domain, deletes, posts)
+			if err != nil {
+				return oops.Wrap(err)
+			}
+			err = bot.Update(keeps, resp.Deletes, resp.Posts)
+			if err != nil {
+				return oops.Wrap(err)
+			}
 			return nil
 		},
 	}

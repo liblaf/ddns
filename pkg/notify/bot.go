@@ -12,7 +12,7 @@ type Bot struct {
 }
 
 func NewBot() (*Bot, error) {
-	token := viper.GetString("telegram-token")
+	token := viper.GetString("telegram-bot-token")
 	chatId := viper.GetInt64("telegram-chat-id")
 	raw, err := gotgbot.NewBot(token, &gotgbot.BotOpts{})
 	if err != nil {

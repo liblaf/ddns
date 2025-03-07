@@ -28,11 +28,11 @@ func Delete() *cobra.Command {
 			if len(records) == 0 {
 				return nil
 			}
-			err = client.Delete(cmd.Context(), records)
+			resp, err := client.Delete(cmd.Context(), records)
 			if err != nil {
 				return err
 			}
-			err = bot.Delete(records)
+			err = bot.Delete(resp.Deletes)
 			if err != nil {
 				return oops.Wrap(err)
 			}
