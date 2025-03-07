@@ -27,7 +27,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: bin-${{ matrix.arch }}-${{ matrix.os }}
-          path: ./dist/
+          path: ./bin/
     strategy:
       matrix:
         arch:
@@ -58,14 +58,14 @@ jobs:
       - name: Download Artifacts
         uses: actions/download-artifact@v4
         with:
-          path: ./dist/
+          path: ./bin/
           pattern: bin-*
           merge-multiple: true
       - name: Release
         uses: liblaf/actions/release@main
         with:
           clobber: true
-          files: ./dist/*
+          files: ./bin/*
           prerelease: true
           tag: dev
 
@@ -88,11 +88,11 @@ jobs:
       - name: Download Artifacts
         uses: actions/download-artifact@v4
         with:
-          path: ./dist/
+          path: ./bin/
           pattern: bin-*
           merge-multiple: true
       - name: Release
         uses: liblaf/actions/release@main
         with:
-          files: ./dist/*
+          files: ./bin/*
           tag: ${{ github.event.release.tag_name || github.ref_name }}
