@@ -2,6 +2,7 @@ package config
 
 import (
 	"os"
+	"strings"
 
 	"github.com/samber/oops"
 	"github.com/spf13/viper"
@@ -25,5 +26,6 @@ func Domain() (string, error) {
 		return "", oops.Wrap(err)
 	}
 	domain = hostname + ".ddns.liblaf.me"
+	domain = strings.ToLower(domain)
 	return domain, nil
 }
