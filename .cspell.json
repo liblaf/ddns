@@ -12,6 +12,8 @@
     "emirpasic",
     "fsnotify",
     "gjson",
+    "goarch",
+    "goexe",
     "gopkg",
     "gotenv",
     "gotgbot",
