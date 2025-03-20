@@ -1,14 +1,17 @@
 # Changelog
 
-## [0.0.1](https://github.com/liblaf/ddns/compare/v0.0.0...v0.0.1) (2025-03-20)
-
+## [0.0.1](https://github.com/liblaf/ddns/compare/v0.0.0..v0.0.1) - 2025-03-20
 
 ### ⬆️ Dependencies
 
-* **deps:** update module github.com/cloudflare/cloudflare-go/v4 to v4.2.0 ([#7](https://github.com/liblaf/ddns/issues/7)) ([2225362](https://github.com/liblaf/ddns/commit/2225362097497cc846b360e2a70f51a71e8df48e))
-* **deps:** update module github.com/spf13/viper to v1.20.0 ([#4](https://github.com/liblaf/ddns/issues/4)) ([df244b8](https://github.com/liblaf/ddns/commit/df244b8cecdebe664c5164e0718caf023a936268))
+- **deps:** update module github.com/cloudflare/cloudflare-go/v4 to v4.2.0 (#7) - ([2225362](https://github.com/liblaf/ddns/commit/2225362097497cc846b360e2a70f51a71e8df48e))
+- **deps:** update module github.com/spf13/viper to v1.20.0 (#4) - ([df244b8](https://github.com/liblaf/ddns/commit/df244b8cecdebe664c5164e0718caf023a936268))
 
-## [0.0.0] - 2025-03-07
+### ❤️ New Contributors
+
+- @renovate[bot] made their first contribution in [#7](https://github.com/liblaf/ddns/pull/7)
+
+## [0.0.0] - 2025-03-09
 
 ### ✨ Features
 
@@ -33,4 +36,5 @@
 
 ### ❤️ New Contributors
 
+- @github-actions[bot] made their first contribution in [#2](https://github.com/liblaf/ddns/pull/2)
 - @liblaf made their first contribution
