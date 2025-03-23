@@ -6,7 +6,7 @@ require (
 	github.com/PaulSonOfLars/gotgbot/v2 v2.0.0-rc.31
 	github.com/cloudflare/cloudflare-go/v4 v4.2.0
 	github.com/emirpasic/gods v1.18.1
-	github.com/rs/zerolog v1.33.0
+	github.com/rs/zerolog v1.34.0
 	github.com/samber/oops v1.17.0
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/viper v1.20.0
