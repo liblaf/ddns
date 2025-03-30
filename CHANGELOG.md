@@ -1,6 +1,16 @@
 # Changelog
 
-## [0.0.1](https://github.com/liblaf/ddns/compare/v0.0.0..v0.0.1) - 2025-03-20
+## [0.0.2](https://github.com/liblaf/ddns/compare/v0.0.1..v0.0.2) - 2025-03-23
+
+### ⬆️ Dependencies
+
+- **deps:** update module github.com/rs/zerolog to v1.34.0 (#8) - ([3bb0d23](https://github.com/liblaf/ddns/commit/3bb0d235e358895696628b3b018153659e734b70))
+
+### ❤️ New Contributors
+
+- @renovate[bot] made their first contribution in [#8](https://github.com/liblaf/ddns/pull/8)
+
+## [0.0.1](https://github.com/liblaf/ddns/compare/v0.0.0..v0.0.1) - 2025-03-23
 
 ### ⬆️ Dependencies
 
