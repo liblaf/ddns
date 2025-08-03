@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.0.3](https://github.com/liblaf/ddns/compare/v0.0.2...v0.0.3) (2025-08-03)
+
+
+### ⬆️ Dependencies
+
+* **deps:** update module github.com/paulsonoflars/gotgbot/v2 to v2.0.0-rc.33 ([#11](https://github.com/liblaf/ddns/issues/11)) ([4213b92](https://github.com/liblaf/ddns/commit/4213b928a1a02bb1b0c6968eaf0094c96775f723))
+* **deps:** update module github.com/samber/oops to v1.19.0 ([#13](https://github.com/liblaf/ddns/issues/13)) ([6efe96c](https://github.com/liblaf/ddns/commit/6efe96c58330507b7ba4290b9c5215e4cdf33e83))
+* **deps:** update module github.com/spf13/viper to v1.20.1 ([#10](https://github.com/liblaf/ddns/issues/10)) ([2304f84](https://github.com/liblaf/ddns/commit/2304f84aa83728419092ab4c9ed9c209a4e89833))
+
 ## [0.0.2](https://github.com/liblaf/ddns/compare/v0.0.1..v0.0.2) - 2025-03-23
 
 ### ⬆️ Dependencies
