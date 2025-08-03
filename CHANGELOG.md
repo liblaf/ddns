@@ -1,23 +1,23 @@
 # Changelog
 
-## [0.0.3](https://github.com/liblaf/ddns/compare/v0.0.2...v0.0.3) (2025-08-03)
-
+## [0.0.3](https://github.com/liblaf/ddns/compare/v0.0.2..v0.0.3) - 2025-08-03
 
 ### ⬆️ Dependencies
 
-* **deps:** update module github.com/paulsonoflars/gotgbot/v2 to v2.0.0-rc.33 ([#11](https://github.com/liblaf/ddns/issues/11)) ([4213b92](https://github.com/liblaf/ddns/commit/4213b928a1a02bb1b0c6968eaf0094c96775f723))
-* **deps:** update module github.com/samber/oops to v1.19.0 ([#13](https://github.com/liblaf/ddns/issues/13)) ([6efe96c](https://github.com/liblaf/ddns/commit/6efe96c58330507b7ba4290b9c5215e4cdf33e83))
-* **deps:** update module github.com/spf13/viper to v1.20.1 ([#10](https://github.com/liblaf/ddns/issues/10)) ([2304f84](https://github.com/liblaf/ddns/commit/2304f84aa83728419092ab4c9ed9c209a4e89833))
+- **deps:** update module github.com/paulsonoflars/gotgbot/v2 to v2.0.0-rc.33 (#11) - ([4213b92](https://github.com/liblaf/ddns/commit/4213b928a1a02bb1b0c6968eaf0094c96775f723))
+- **deps:** update module github.com/samber/oops to v1.19.0 (#13) - ([6efe96c](https://github.com/liblaf/ddns/commit/6efe96c58330507b7ba4290b9c5215e4cdf33e83))
+- **deps:** update module github.com/spf13/viper to v1.20.1 (#10) - ([2304f84](https://github.com/liblaf/ddns/commit/2304f84aa83728419092ab4c9ed9c209a4e89833))
 
-## [0.0.2](https://github.com/liblaf/ddns/compare/v0.0.1..v0.0.2) - 2025-03-23
+### ❤️ New Contributors
+
+- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#11](https://github.com/liblaf/ddns/pull/11)
+- [@mergery[bot]](https://github.com/apps/mergery) made their first contribution
+
+## [0.0.2](https://github.com/liblaf/ddns/compare/v0.0.1..v0.0.2) - 2025-03-30
 
 ### ⬆️ Dependencies
 
 - **deps:** update module github.com/rs/zerolog to v1.34.0 (#8) - ([3bb0d23](https://github.com/liblaf/ddns/commit/3bb0d235e358895696628b3b018153659e734b70))
-
-### ❤️ New Contributors
-
-- @renovate[bot] made their first contribution in [#8](https://github.com/liblaf/ddns/pull/8)
 
 ## [0.0.1](https://github.com/liblaf/ddns/compare/v0.0.0..v0.0.1) - 2025-03-23
 
@@ -28,7 +28,7 @@
 
 ### ❤️ New Contributors
 
-- @renovate[bot] made their first contribution in [#7](https://github.com/liblaf/ddns/pull/7)
+- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#7](https://github.com/liblaf/ddns/pull/7)
 
 ## [0.0.0] - 2025-03-09
 
@@ -55,5 +55,5 @@
 
 ### ❤️ New Contributors
 
-- @github-actions[bot] made their first contribution in [#2](https://github.com/liblaf/ddns/pull/2)
-- @liblaf made their first contribution
+- [@github-actions[bot]](https://github.com/apps/github-actions) made their first contribution in [#2](https://github.com/liblaf/ddns/pull/2)
+- [@liblaf](https://github.com/liblaf) made their first contribution
