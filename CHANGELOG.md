@@ -1,6 +1,25 @@
 # Changelog
 
-## [0.0.3](https://github.com/liblaf/ddns/compare/v0.0.2..v0.0.3) - 2025-08-03
+## [1.0.0](https://github.com/liblaf/ddns/compare/v0.0.3..v1.0.0) - 2025-08-23
+
+### 💥 BREAKING CHANGES
+
+- upgrade cloudflare-go from v4 to v5 - ([3d6127c](https://github.com/liblaf/ddns/commit/3d6127c7af8792e07f0ff6e05083f42cfae0bc1c))
+
+### ⬆️ Dependencies
+
+- **deps:** update module github.com/cloudflare/cloudflare-go/v4 to v5 (#16) - ([4c6b544](https://github.com/liblaf/ddns/commit/4c6b5449a475c3cd37788ed004d5b1bdda8d8913))
+
+### 👷 Build System
+
+- Set up build system and update dependencies - ([98645c5](https://github.com/liblaf/ddns/commit/98645c541014e854cae25eecae09d695a36dbf97))
+
+### ❤️ New Contributors
+
+- [@liblaf](https://github.com/liblaf) made their first contribution
+- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#16](https://github.com/liblaf/ddns/pull/16)
+
+## [0.0.3](https://github.com/liblaf/ddns/compare/v0.0.2..v0.0.3) - 2025-08-10
 
 ### ⬆️ Dependencies
 
@@ -10,7 +29,6 @@
 
 ### ❤️ New Contributors
 
-- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#11](https://github.com/liblaf/ddns/pull/11)
 - [@mergery[bot]](https://github.com/apps/mergery) made their first contribution
 
 ## [0.0.2](https://github.com/liblaf/ddns/compare/v0.0.1..v0.0.2) - 2025-03-30
