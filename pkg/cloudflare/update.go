@@ -33,7 +33,7 @@ func (c *Client) Update(
 		params.Deletes = cf.F(deletesParams)
 	}
 	if len(posts) > 0 {
-		postsParams := []dns.RecordUnionParam{}
+		postsParams := []dns.RecordBatchParamsPostUnion{}
 		for _, ip := range posts {
 			if ip.Is4() {
 				postsParams = append(postsParams, dns.ARecordParam{
