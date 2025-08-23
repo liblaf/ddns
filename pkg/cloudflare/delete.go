@@ -3,8 +3,8 @@ package cloudflare
 import (
 	"context"
 
-	cf "github.com/cloudflare/cloudflare-go/v4"
-	"github.com/cloudflare/cloudflare-go/v4/dns"
+	cf "github.com/cloudflare/cloudflare-go/v5"
+	"github.com/cloudflare/cloudflare-go/v5/dns"
 	"github.com/rs/zerolog/log"
 	"github.com/samber/oops"
 )

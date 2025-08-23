@@ -1,7 +1,7 @@
 package cloudflare
 
 import (
-	"github.com/cloudflare/cloudflare-go/v4/dns"
+	"github.com/cloudflare/cloudflare-go/v5/dns"
 )
 
 func GetLabel(record dns.RecordResponse) string {

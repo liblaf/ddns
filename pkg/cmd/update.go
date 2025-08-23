@@ -3,7 +3,7 @@ package cmd
 import (
 	"net/netip"
 
-	"github.com/cloudflare/cloudflare-go/v4/dns"
+	"github.com/cloudflare/cloudflare-go/v5/dns"
 	"github.com/emirpasic/gods/sets/hashset"
 	"github.com/liblaf/ddns/pkg/cloudflare"
 	"github.com/liblaf/ddns/pkg/config"
