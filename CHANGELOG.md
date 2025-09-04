@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.1](https://github.com/liblaf/ddns/compare/v1.0.0..v1.0.1) - 2025-09-04
+
+### ⬆️ Dependencies
+
+- **deps:** update module github.com/spf13/cobra to v1.10.1 (#26) - ([93fb5f0](https://github.com/liblaf/ddns/commit/93fb5f0fbac67f449acd6c9413c7a8cb999b1e3f))
+- **deps:** update module github.com/cloudflare/cloudflare-go/v5 to v6 (#23) - ([6f8ff17](https://github.com/liblaf/ddns/commit/6f8ff176c5cf1cf2a657fe9fe018af1d728a8189))
+
+### ❤️ New Contributors
+
+- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#27](https://github.com/liblaf/ddns/pull/27)
+- [@liblaf-bot[bot]](https://github.com/apps/liblaf-bot) made their first contribution
+
 ## [1.0.0](https://github.com/liblaf/ddns/compare/v0.0.3..v1.0.0) - 2025-08-23
 
 ### 💥 BREAKING CHANGES
@@ -16,8 +28,7 @@
 
 ### ❤️ New Contributors
 
-- [@liblaf](https://github.com/liblaf) made their first contribution
-- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#16](https://github.com/liblaf/ddns/pull/16)
+- [@liblaf-bot[bot]](https://github.com/apps/liblaf-bot) made their first contribution in [#20](https://github.com/liblaf/ddns/pull/20)
 
 ## [0.0.3](https://github.com/liblaf/ddns/compare/v0.0.2..v0.0.3) - 2025-08-10
 
