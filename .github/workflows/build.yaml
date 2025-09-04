@@ -21,7 +21,7 @@ jobs:
       - name: Install mise
         uses: jdx/mise-action@v3
       - name: Setup Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
       - name: Build
         run: mise run dist
         env:
