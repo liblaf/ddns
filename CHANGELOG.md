@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2](https://github.com/liblaf/ddns/compare/v1.0.1...v1.0.2) (2025-09-14)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update module github.com/cloudflare/cloudflare-go/v6 to v6.0.1 ([#30](https://github.com/liblaf/ddns/issues/30)) ([7776a2e](https://github.com/liblaf/ddns/commit/7776a2ed78cb7022f65d0aa7ea0903705f54a4ae))
+* **deps:** update module github.com/spf13/viper to v1.21.0 ([#28](https://github.com/liblaf/ddns/issues/28)) ([0761565](https://github.com/liblaf/ddns/commit/076156586c322037cfdd37bf9a5bad93bcedcc35))
+
 ## [1.0.1](https://github.com/liblaf/ddns/compare/v1.0.0..v1.0.1) - 2025-09-04
 
 ### ⬆️ Dependencies
