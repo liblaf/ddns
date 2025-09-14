@@ -1,24 +1,23 @@
 # Changelog
 
-## [1.0.2](https://github.com/liblaf/ddns/compare/v1.0.1...v1.0.2) (2025-09-14)
+## [1.0.2](https://github.com/liblaf/ddns/compare/v1.0.1..v1.0.2) - 2025-09-14
 
+### ⬆️ Dependencies
 
-### 🐛 Bug Fixes
+- **deps:** update module github.com/cloudflare/cloudflare-go/v6 to v6.0.1 (#30) - ([7776a2e](https://github.com/liblaf/ddns/commit/7776a2ed78cb7022f65d0aa7ea0903705f54a4ae))
+- **deps:** update module github.com/spf13/viper to v1.21.0 (#28) - ([0761565](https://github.com/liblaf/ddns/commit/076156586c322037cfdd37bf9a5bad93bcedcc35))
 
-* **deps:** update module github.com/cloudflare/cloudflare-go/v6 to v6.0.1 ([#30](https://github.com/liblaf/ddns/issues/30)) ([7776a2e](https://github.com/liblaf/ddns/commit/7776a2ed78cb7022f65d0aa7ea0903705f54a4ae))
-* **deps:** update module github.com/spf13/viper to v1.21.0 ([#28](https://github.com/liblaf/ddns/issues/28)) ([0761565](https://github.com/liblaf/ddns/commit/076156586c322037cfdd37bf9a5bad93bcedcc35))
+### ❤️ New Contributors
 
-## [1.0.1](https://github.com/liblaf/ddns/compare/v1.0.0..v1.0.1) - 2025-09-04
+- [@liblaf-bot[bot]](https://github.com/apps/liblaf-bot) made their first contribution
+- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#30](https://github.com/liblaf/ddns/pull/30)
+
+## [1.0.1](https://github.com/liblaf/ddns/compare/v1.0.0..v1.0.1) - 2025-09-07
 
 ### ⬆️ Dependencies
 
 - **deps:** update module github.com/spf13/cobra to v1.10.1 (#26) - ([93fb5f0](https://github.com/liblaf/ddns/commit/93fb5f0fbac67f449acd6c9413c7a8cb999b1e3f))
 - **deps:** update module github.com/cloudflare/cloudflare-go/v5 to v6 (#23) - ([6f8ff17](https://github.com/liblaf/ddns/commit/6f8ff176c5cf1cf2a657fe9fe018af1d728a8189))
-
-### ❤️ New Contributors
-
-- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#27](https://github.com/liblaf/ddns/pull/27)
-- [@liblaf-bot[bot]](https://github.com/apps/liblaf-bot) made their first contribution
 
 ## [1.0.0](https://github.com/liblaf/ddns/compare/v0.0.3..v1.0.0) - 2025-08-23
 
