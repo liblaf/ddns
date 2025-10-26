@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/liblaf/ddns/compare/v1.0.3...v1.0.4) (2025-10-26)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update module github.com/cloudflare/cloudflare-go/v6 to v6.2.0 ([#34](https://github.com/liblaf/ddns/issues/34)) ([08f78eb](https://github.com/liblaf/ddns/commit/08f78eb0a6d712b48b50e72070c22db59ed15dc3))
+
 ## [1.0.3](https://github.com/liblaf/ddns/compare/v1.0.2..v1.0.3) - 2025-10-05
 
 ### ⬆️ Dependencies
