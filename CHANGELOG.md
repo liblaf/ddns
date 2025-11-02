@@ -1,16 +1,22 @@
 # Changelog
 
+## [1.0.4](https://github.com/liblaf/ddns/compare/v1.0.3..v1.0.4) - 2025-10-26
+
+### ⬆️ Dependencies
+
+- **deps:** update module github.com/cloudflare/cloudflare-go/v6 to v6.2.0 (#34) - ([08f78eb](https://github.com/liblaf/ddns/commit/08f78eb0a6d712b48b50e72070c22db59ed15dc3))
+
+### ❤️ New Contributors
+
+- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#37](https://github.com/liblaf/ddns/pull/37)
+- [@liblaf[bot]](https://github.com/apps/liblaf) made their first contribution
+
 ## [1.0.3](https://github.com/liblaf/ddns/compare/v1.0.2..v1.0.3) - 2025-10-05
 
 ### ⬆️ Dependencies
 
 - **deps:** update module github.com/cloudflare/cloudflare-go/v6 to v6.1.0 (#33) - ([0f26ed1](https://github.com/liblaf/ddns/commit/0f26ed157f25daec353da11cb7a82b4d2dcc4e8b))
 - **deps:** update module github.com/samber/oops to v1.19.3 (#31) - ([1a94cac](https://github.com/liblaf/ddns/commit/1a94cac96026c7cd0bc94aa99d85f472c3fa3092))
-
-### ❤️ New Contributors
-
-- [@liblaf-bot[bot]](https://github.com/apps/liblaf-bot) made their first contribution
-- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#33](https://github.com/liblaf/ddns/pull/33)
 
 ## [1.0.2](https://github.com/liblaf/ddns/compare/v1.0.1..v1.0.2) - 2025-09-14
 
@@ -42,7 +48,7 @@
 
 ### ❤️ New Contributors
 
-- [@liblaf-bot[bot]](https://github.com/apps/liblaf-bot) made their first contribution in [#20](https://github.com/liblaf/ddns/pull/20)
+- [@liblaf[bot]](https://github.com/apps/liblaf) made their first contribution in [#20](https://github.com/liblaf/ddns/pull/20)
 
 ## [0.0.3](https://github.com/liblaf/ddns/compare/v0.0.2..v0.0.3) - 2025-08-10
 
