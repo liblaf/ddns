@@ -7,7 +7,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Conventional Changelog](https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.5](https://github.com/liblaf/ddns/releases/tag/v1.0.5) - 2025-11-14
+## [1.0.6](https://github.com/liblaf/ddns/releases/tag/v1.0.6) - 2025-11-20
+
+### 🐛 Bug Fixes
+
+- **deps:** update module github.com/cloudflare/cloudflare-go/v6 to v6.3.0 (#47) - [0a62037](https://github.com/liblaf/ddns/commit/0a6203792727e77bd5ceae91e7942c8ba3c08a18) by [@renovate[bot]](https://github.com/apps/renovate) in [#47](https://github.com/liblaf/ddns/pull/47)
+
+### ❤️ Contributors
+
+- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#49](https://github.com/liblaf/ddns/pull/49)
+
+## [1.0.5](https://github.com/liblaf/ddns/releases/tag/v1.0.5) - 2025-11-16
 
 ### 🐛 Bug Fixes
 
@@ -15,8 +25,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ❤️ Contributors
 
-- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#45](https://github.com/liblaf/ddns/pull/45)
-- [@liblaf[bot]](https://github.com/apps/liblaf) made their first contribution in [#44](https://github.com/liblaf/ddns/pull/44)
+- [@liblaf[bot]](https://github.com/apps/liblaf)
+- [@renovate[bot]](https://github.com/apps/renovate)
 - [@copier-update[bot]](https://github.com/apps/copier-update) made their first contribution in [#38](https://github.com/liblaf/ddns/pull/38)
 
 ## [1.0.4](https://github.com/liblaf/ddns/releases/tag/v1.0.4) - 2025-11-02
