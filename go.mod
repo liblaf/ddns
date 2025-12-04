@@ -9,7 +9,7 @@ require (
 	github.com/emirpasic/gods v1.18.1
 	github.com/rs/zerolog v1.34.0
 	github.com/samber/oops v1.19.4
-	github.com/spf13/cobra v1.10.1
+	github.com/spf13/cobra v1.10.2
 	github.com/spf13/viper v1.21.0
 )
 
