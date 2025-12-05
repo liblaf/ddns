@@ -5,7 +5,7 @@ go 1.24.0
 require (
 	github.com/PaulSonOfLars/gotgbot/v2 v2.0.0-rc.33
 	github.com/cloudflare/cloudflare-go/v5 v5.1.0
-	github.com/cloudflare/cloudflare-go/v6 v6.3.0
+	github.com/cloudflare/cloudflare-go/v6 v6.4.0
 	github.com/emirpasic/gods v1.18.1
 	github.com/rs/zerolog v1.34.0
 	github.com/samber/oops v1.19.4
