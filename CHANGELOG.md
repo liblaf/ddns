@@ -7,7 +7,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Conventional Changelog](https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.10](https://github.com/liblaf/ddns/releases/tag/v1.0.10) - 2026-01-16
+## [1.0.11](https://github.com/liblaf/ddns/releases/tag/v1.0.11) - 2026-01-19
+
+### 🐛 Bug Fixes
+
+- **deps:** update module github.com/samber/oops to v1.21.0 (#70) - [85fbf48](https://github.com/liblaf/ddns/commit/85fbf48a2f8b35558e0200ddd77e304f3a9dba57) by [@renovate[bot]](https://github.com/apps/renovate) in [#70](https://github.com/liblaf/ddns/pull/70)
+
+### ❤️ Contributors
+
+- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#70](https://github.com/liblaf/ddns/pull/70)
+
+## [1.0.10](https://github.com/liblaf/ddns/releases/tag/v1.0.10) - 2026-01-18
 
 ### 🐛 Bug Fixes
 
@@ -15,8 +25,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ❤️ Contributors
 
-- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#68](https://github.com/liblaf/ddns/pull/68)
-- [@liblaf[bot]](https://github.com/apps/liblaf) made their first contribution in [#67](https://github.com/liblaf/ddns/pull/67)
+- [@liblaf[bot]](https://github.com/apps/liblaf)
+- [@renovate[bot]](https://github.com/apps/renovate)
 
 ## [1.0.9](https://github.com/liblaf/ddns/releases/tag/v1.0.9) - 2026-01-04
 
