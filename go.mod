@@ -3,7 +3,7 @@ module github.com/liblaf/ddns
 go 1.24.0
 
 require (
-	github.com/PaulSonOfLars/gotgbot/v2 v2.0.0-rc.33
+	github.com/PaulSonOfLars/gotgbot/v2 v2.0.0-rc.34
 	github.com/cloudflare/cloudflare-go/v5 v5.1.0
 	github.com/cloudflare/cloudflare-go/v6 v6.7.0
 	github.com/emirpasic/gods v1.18.1
