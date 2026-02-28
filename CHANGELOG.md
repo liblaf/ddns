@@ -7,7 +7,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Conventional Changelog](https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.12](https://github.com/liblaf/ddns/releases/tag/v1.0.12) - 2026-02-11
+## [1.0.13](https://github.com/liblaf/ddns/releases/tag/v1.0.13) - 2026-02-28
+
+### 🐛 Bug Fixes
+
+- **deps:** update module github.com/paulsonoflars/gotgbot/v2 to v2.0.0-rc.34 (#74) - [66389b9](https://github.com/liblaf/ddns/commit/66389b9ca548bd58ff52c38d57e04bfe4a02d272) by [@renovate[bot]](https://github.com/apps/renovate) in [#74](https://github.com/liblaf/ddns/pull/74)
+- **deps:** update module github.com/cloudflare/cloudflare-go/v6 to v6.8.0 (#77) - [b8c2758](https://github.com/liblaf/ddns/commit/b8c27585977c6877a102e87ab3ba9e642d3261b5) by [@renovate[bot]](https://github.com/apps/renovate) in [#77](https://github.com/liblaf/ddns/pull/77)
+
+### ❤️ Contributors
+
+- [@renovate[bot]](https://github.com/apps/renovate)
+
+## [1.0.12](https://github.com/liblaf/ddns/releases/tag/v1.0.12) - 2026-02-15
 
 ### 🐛 Bug Fixes
 
@@ -15,7 +26,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ❤️ Contributors
 
-- [@renovate[bot]](https://github.com/apps/renovate) made their first contribution in [#72](https://github.com/liblaf/ddns/pull/72)
+- [@liblaf[bot]](https://github.com/apps/liblaf)
+- [@renovate[bot]](https://github.com/apps/renovate)
 
 ## [1.0.11](https://github.com/liblaf/ddns/releases/tag/v1.0.11) - 2026-01-25
 
