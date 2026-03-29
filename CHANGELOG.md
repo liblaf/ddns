@@ -7,7 +7,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Conventional Changelog](https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.13](https://github.com/liblaf/ddns/releases/tag/v1.0.13) - 2026-02-28
+## [1.0.14](https://github.com/liblaf/ddns/releases/tag/v1.0.14) - 2026-03-28
+
+### 🐛 Bug Fixes
+
+- **deps:** update module github.com/rs/zerolog to v1.35.0 (#82) - [6177356](https://github.com/liblaf/ddns/commit/61773567450814e64842a17f4beb49c6ce49f7a7) by [@renovate[bot]](https://github.com/apps/renovate) in [#82](https://github.com/liblaf/ddns/pull/82)
+
+### ❤️ Contributors
+
+- [@renovate[bot]](https://github.com/apps/renovate)
+- [@liblaf[bot]](https://github.com/apps/liblaf)
+
+## [1.0.13](https://github.com/liblaf/ddns/releases/tag/v1.0.13) - 2026-03-01
 
 ### 🐛 Bug Fixes
 
@@ -16,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ❤️ Contributors
 
+- [@liblaf[bot]](https://github.com/apps/liblaf)
 - [@renovate[bot]](https://github.com/apps/renovate)
 
 ## [1.0.12](https://github.com/liblaf/ddns/releases/tag/v1.0.12) - 2026-02-15
