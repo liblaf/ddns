@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/netip"
 
-	cf "github.com/cloudflare/cloudflare-go/v5"
-	"github.com/cloudflare/cloudflare-go/v5/dns"
+	cf "github.com/cloudflare/cloudflare-go/v7"
+	"github.com/cloudflare/cloudflare-go/v7/dns"
 	"github.com/rs/zerolog/log"
 	"github.com/samber/oops"
 )

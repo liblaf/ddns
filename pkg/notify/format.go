@@ -3,7 +3,7 @@ package notify
 import (
 	"fmt"
 
-	"github.com/cloudflare/cloudflare-go/v5/dns"
+	"github.com/cloudflare/cloudflare-go/v7/dns"
 	"github.com/liblaf/ddns/pkg/cloudflare"
 )
 

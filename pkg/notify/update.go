@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/PaulSonOfLars/gotgbot/v2"
-	"github.com/cloudflare/cloudflare-go/v5/dns"
+	"github.com/cloudflare/cloudflare-go/v7/dns"
 	"github.com/rs/zerolog/log"
 	"github.com/samber/oops"
 )

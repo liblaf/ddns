@@ -1,8 +1,8 @@
 package cloudflare
 
 import (
-	cf "github.com/cloudflare/cloudflare-go/v5"
-	"github.com/cloudflare/cloudflare-go/v5/option"
+	cf "github.com/cloudflare/cloudflare-go/v7"
+	"github.com/cloudflare/cloudflare-go/v7/option"
 	"github.com/spf13/viper"
 )
 
