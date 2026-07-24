@@ -35,7 +35,8 @@ func (c *Client) Update(
 	if len(posts) > 0 {
 		postsParams := []dns.RecordBatchParamsPostUnion{}
 		for _, ip := range posts {
-			if ip.Is4() {
+			switch {
+			case ip.Is4():
 				postsParams = append(postsParams, dns.ARecordParam{
 					Comment: cf.F(comment),
 					Content: cf.F(ip.String()),
@@ -44,7 +45,7 @@ func (c *Client) Update(
 					TTL:     cf.F(dns.TTL(60)),
 					Type:    cf.F(dns.ARecordTypeA),
 				})
-			} else if ip.Is6() {
+			case ip.Is6():
 				postsParams = append(postsParams, dns.AAAARecordParam{
 					Comment: cf.F(comment),
 					Content: cf.F(ip.String()),
@@ -53,7 +54,7 @@ func (c *Client) Update(
 					TTL:     cf.F(dns.TTL(60)),
 					Type:    cf.F(dns.AAAARecordTypeAAAA),
 				})
-			} else {
+			default:
 				log.Warn().IPAddr("ip", ip.AsSlice()).Send()
 			}
 		}
