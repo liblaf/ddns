@@ -7,6 +7,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Conventional Changelog](https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.0.2](https://github.com/liblaf/ddns/releases/tag/v2.0.2) - 2026-07-24
+
+### ♻️ Code Refactoring
+
+- **(cloudflare)** use switch for DNS record types - [8a6fd31](https://github.com/liblaf/ddns/commit/8a6fd31c92ac0376d1a622e81058154bf846623a) by [@liblaf](https://github.com/liblaf)
+
+### ❤️ Contributors
+
+- [@liblaf](https://github.com/liblaf)
+
 ## [v2.0.1](https://github.com/liblaf/ddns/releases/tag/v2.0.1) - 2026-07-24
 
 ### 🛠 Builds
@@ -15,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ❤️ Contributors
 
+- [@liblaf-release-please[bot]](https://github.com/apps/liblaf-release-please)
 - [@liblaf](https://github.com/liblaf)
 
 ## [v2.0.0](https://github.com/liblaf/ddns/releases/tag/v2.0.0) - 2026-07-24
