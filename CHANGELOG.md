@@ -7,7 +7,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Conventional Changelog](https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [v2.0.0](https://github.com/liblaf/ddns/releases/tag/v2.0.0) - 2026-07-23
+## [v2.0.1](https://github.com/liblaf/ddns/releases/tag/v2.0.1) - 2026-07-24
+
+### 🛠 Builds
+
+- use hyphens in release archive names - [163758f](https://github.com/liblaf/ddns/commit/163758fe0622e4a920e1a606d42987b31878f87a) by [@liblaf](https://github.com/liblaf)
+
+### ❤️ Contributors
+
+- [@liblaf](https://github.com/liblaf)
+
+## [v2.0.0](https://github.com/liblaf/ddns/releases/tag/v2.0.0) - 2026-07-24
 
 ### 💥 BREAKING CHANGES
 
@@ -24,6 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ❤️ Contributors
 
+- [@liblaf-release-please[bot]](https://github.com/apps/liblaf-release-please) made their first contribution in [#99](https://github.com/liblaf/ddns/pull/99)
 - [@liblaf](https://github.com/liblaf)
 - [@renovate[bot]](https://github.com/apps/renovate)
 
