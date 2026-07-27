@@ -7,7 +7,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Conventional Changelog](https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [v2.0.2](https://github.com/liblaf/ddns/releases/tag/v2.0.2) - 2026-07-24
+## [v2.0.3](https://github.com/liblaf/ddns/releases/tag/v2.0.3) - 2026-07-27
+
+### 🐛 Bug Fixes
+
+- **(ip)** exclude reserved ranges from global addresses - [c3316a1](https://github.com/liblaf/ddns/commit/c3316a172d9317e3d3f4aa46f928be436cb1e026) by [@liblaf](https://github.com/liblaf)
+
+### ❤️ Contributors
+
+- [@liblaf](https://github.com/liblaf)
+
+## [v2.0.2](https://github.com/liblaf/ddns/releases/tag/v2.0.2) - 2026-07-26
 
 ### ♻️ Code Refactoring
 
@@ -15,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ❤️ Contributors
 
+- [@liblaf-release-please[bot]](https://github.com/apps/liblaf-release-please)
 - [@liblaf](https://github.com/liblaf)
 
 ## [v2.0.1](https://github.com/liblaf/ddns/releases/tag/v2.0.1) - 2026-07-24
