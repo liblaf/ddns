@@ -16,12 +16,11 @@ maxFileSize: 32KB
 useGitignore: true
 words:
   - afero
+  - cespare
   - ddns
   - emirpasic
   - fsnotify
   - gjson
-  - goarch
-  - goexe
   - gopkg
   - gotenv
   - gotgbot
@@ -30,6 +29,7 @@ words:
   - liblaf
   - locafero
   - mattn
+  - mihomo
   - mkdocs
   - oklog
   - orhun
@@ -37,6 +37,7 @@ words:
   - oxlint
   - pflag
   - pipx
+  - rogpeppe
   - rumdl
   - sagikazarmark
   - samber
@@ -44,3 +45,4 @@ words:
   - subosito
   - taiki
   - tidwall
+  - xxhash
