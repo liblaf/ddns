@@ -1,5 +1,7 @@
 github.com/PaulSonOfLars/gotgbot/v2 v2.0.0-rc.35 h1:THWaG6urv7EnopMeQcIdA5gOuDbtmRWDMpTBUIJRxk0=
 github.com/PaulSonOfLars/gotgbot/v2 v2.0.0-rc.35/go.mod h1:yrKnA/812p/Vh84TYQMz36/8SNLF7OOdTmKFr5i7W7g=
+github.com/PaulSonOfLars/gotgbot/v2 v2.0.0-rc.36 h1:OCI373QkuzXNOoaUBNEwh4uxaaPOfSFYn3ck7WlrqMI=
+github.com/PaulSonOfLars/gotgbot/v2 v2.0.0-rc.36/go.mod h1:yrKnA/812p/Vh84TYQMz36/8SNLF7OOdTmKFr5i7W7g=
 github.com/cespare/xxhash/v2 v2.3.0 h1:UL815xU9SqsFlibzuggzjXhog7bL6oX9BbNZnL2UFvs=
 github.com/cespare/xxhash/v2 v2.3.0/go.mod h1:VGX0DQ3Q6kWi7AoAeZDth3/j3BFtOZR5XLFGgcrjCOs=
 github.com/cloudflare/cloudflare-go/v7 v7.7.0 h1:6e3GZXvQX+Ae7we7VuKag1eNbEbDgxuHYQUQY7E+Z9A=
