@@ -7,7 +7,7 @@ require (
 	github.com/cloudflare/cloudflare-go/v7 v7.10.0
 	github.com/emirpasic/gods v1.18.1
 	github.com/rs/zerolog v1.35.1
-	github.com/samber/oops v1.23.1
+	github.com/samber/oops v1.23.2
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/viper v1.21.0
 )
