@@ -7,7 +7,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Conventional Changelog](https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [v2.0.9](https://github.com/liblaf/ddns/releases/tag/v2.0.9) - 2026-10-02
+## [v2.0.10](https://github.com/liblaf/ddns/releases/tag/v2.0.10) - 2026-10-13
+
+### 🐛 Bug Fixes
+
+- **(deps)** update module github.com/cloudflare/cloudflare-go/v7 to v7.13.0 (#123) - [f51e018](https://github.com/liblaf/ddns/commit/f51e01869c8378f792d41463319f148efc0b9286) by [@renovate[bot]](https://github.com/apps/renovate)
+
+### ⚙️ Continuous Integrations
+
+- **(deps)** update goreleaser/goreleaser-action digest to a4f02ab (#124) - [4c60c35](https://github.com/liblaf/ddns/commit/4c60c35ae2b94df464d92f0b74328447e77881a2) by [@renovate[bot]](https://github.com/apps/renovate)
+
+### ❤️ Contributors
+
+- [@renovate[bot]](https://github.com/apps/renovate)
+- [@liblaf-copier[bot]](https://github.com/apps/liblaf-copier)
+
+## [v2.0.9](https://github.com/liblaf/ddns/releases/tag/v2.0.9) - 2026-10-04
 
 ### 🐛 Bug Fixes
 
@@ -15,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ❤️ Contributors
 
+- [@liblaf-release-please[bot]](https://github.com/apps/liblaf-release-please)
 - [@renovate[bot]](https://github.com/apps/renovate)
 
 ## [v2.0.8](https://github.com/liblaf/ddns/releases/tag/v2.0.8) - 2026-09-27
