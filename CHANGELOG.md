@@ -7,7 +7,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Conventional Changelog](https://github.com/conventional-changelog/conventional-changelog-config-spec/blob/master/versions/2.2.0/README.md),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [v2.0.13](https://github.com/liblaf/ddns/releases/tag/v2.0.13) - 2026-11-14
+## [v2.0.14](https://github.com/liblaf/ddns/releases/tag/v2.0.14) - 2026-11-17
+
+### ⚙️ Continuous Integrations
+
+- **(deps)** update actions/setup-go digest to d8cbb80 (#136) - [7d5f311](https://github.com/liblaf/ddns/commit/7d5f3115f4b093e14ed929ee4e2ed8263c3f1e50) by [@renovate[bot]](https://github.com/apps/renovate)
+
+### ❤️ Contributors
+
+- [@renovate[bot]](https://github.com/apps/renovate)
+
+## [v2.0.13](https://github.com/liblaf/ddns/releases/tag/v2.0.13) - 2026-11-15
 
 ### 🐛 Bug Fixes
 
@@ -15,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ❤️ Contributors
 
+- [@liblaf-release-please[bot]](https://github.com/apps/liblaf-release-please)
 - [@renovate[bot]](https://github.com/apps/renovate)
 
 ## [v2.0.12](https://github.com/liblaf/ddns/releases/tag/v2.0.12) - 2026-11-08
